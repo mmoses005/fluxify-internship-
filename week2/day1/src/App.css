@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.bio h2 {
+  margin: 10px 0 5px;
+}
+
+.bio h4 {
+  margin: 0;
+  color: gray;
+}
+
+.bio p {
+  font-size: 14px;
+  color: #555;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #007bff;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+}
